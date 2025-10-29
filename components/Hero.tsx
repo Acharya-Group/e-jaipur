@@ -44,7 +44,7 @@ const Hero = () => {
           nextEl: ".hero-next",
           prevEl: ".hero-prev",
         }}
-        className="hero_slider w-full h-[180px] sm:h-[320px] md:h-[400px] lg:h-[500px]"
+        className="hero_slider w-full h-[180px] sm:h-80 md:h-[400px] lg:h-[500px]"
       >
         {sliders.map((slide, index) => (
           <SwiperSlide key={index}>
@@ -66,13 +66,13 @@ const Hero = () => {
       {/* Navigation Buttons */}
       <button
         aria-label="Previous slide"
-        className="hero-prev hidden sm:flex absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-blue-600 p-2 sm:p-3 rounded-full shadow text-white h-8 w-8 sm:h-10 sm:w-10 justify-center items-center cursor-pointer hover:bg-blue-700 transition-all duration-300"
+        className="hero-prev hidden sm:flex absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-linear-to-r from-indigo-500 to-pink-500 hover:bg-linear-to-r hover:to-indigo-500 hover:from-pink-500 p-2 sm:p-3 rounded-full shadow text-white h-8 w-8 sm:h-10 sm:w-10 justify-center items-center cursor-pointer hover:bg-blue-700 transition-all duration-300"
       >
         <FiArrowLeft />
       </button>
       <button
         aria-label="Next slide"
-        className="hero-next hidden sm:flex absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-blue-600 p-2 sm:p-3 rounded-full shadow text-white h-8 w-8 sm:h-10 sm:w-10 justify-center items-center cursor-pointer hover:bg-blue-700 transition-all duration-300"
+        className="hero-next hidden sm:flex absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-linear-to-r from-indigo-500 to-pink-500 hover:bg-linear-to-r hover:to-indigo-500 hover:from-pink-500 p-2 sm:p-3 rounded-full shadow text-white h-8 w-8 sm:h-10 sm:w-10 justify-center items-center cursor-pointer hover:bg-blue-700 transition-all duration-300"
       >
         <FiArrowRight />
       </button>

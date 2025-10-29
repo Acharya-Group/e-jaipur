@@ -35,7 +35,7 @@ const Rkcl = () => {
         </motion.p>
 
         {/* Highlights Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-6 lg:mb-10">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-8 bg-white/60 backdrop-blur-md rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-indigo-100"

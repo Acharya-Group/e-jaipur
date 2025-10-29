@@ -6,13 +6,13 @@ const VerifyApply = () => {
     {
       id: 1,
       title: "Verify e-Mitra",
-      link: "/verify-emitra",
+      link: "https://achariyagroup.in/emitra.aspx",
       icon: "✅",
     },
     {
       id: 2,
       title: "Apply For New e-Mitra",
-      link: "/contact",
+      link: "https://achariyagroup.in/contactus.aspx",
       icon: "📝",
     },
     {

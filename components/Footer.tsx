@@ -31,28 +31,27 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <Link href="/" className="hover:text-blue-600 transition-colors">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="#about" className="hover:text-blue-600 transition-colors">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="#bankbc" className="hover:text-blue-600 transition-colors">
-                Bank BC
-              </Link>
-            </li>
-            <li>
-              <Link href="#rkcl" className="hover:text-blue-600 transition-colors">
-                RKCL
-              </Link>
-            </li>
-          </ul>
+        <ul className="flex flex-col gap-3  text-gray-700 font-semibold text-[15px] tracking-wide">
+  {[
+    { name: "Home", href: "/" },
+    { name: "About", href: "#about" },
+    { name: "Bank BC", href: "#bankbc" },
+    { name: "RKCL", href: "#rkcl" },
+  ].map((item) => (
+    <li key={item.name} className="relative group inline">
+      <Link
+        href={item.href}
+        className="relative  py-3 md:px-0 md:py-0 group transition-all duration-300 inline"
+      >
+        <span className="relative inline z-10 text-gray-800 group-hover:text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 transition-all duration-300">
+          {item.name}
+        </span>
+        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-linear-to-r from-blue-500 via-pink-500 to-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+      </Link>
+    </li>
+  ))}
+</ul>
+
         </div>
 
         {/* Contact Info */}
@@ -61,14 +60,26 @@ const Footer = () => {
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-blue-600" />
-              <a href="tel:+911234567890" className="hover:text-blue-600">
-                +91 12345 67890
+              <a href="tel: +918901903333" className="hover:text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 transition-all duration-300">
+                +91 890-190-3333
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="h-4 w-4 text-blue-600" />
+              <a href="tel:+919034040243" className="hover:text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 transition-all duration-300">
+                +91 903-404-0243
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="h-4 w-4 text-blue-600" />
+              <a href="tel:+919587887702" className="hover:text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 transition-all duration-300">
+                +91 958-788-7702
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-blue-600" />
-              <a href="mailto:info@achariya.in" className="hover:text-blue-600">
-                info@achariya.in
+              <a href="mailto:info@Achariyagroup.com" className="hover:text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 transition-all duration-300">
+                info@Achariyagroup.com
               </a>
             </li>
           </ul>

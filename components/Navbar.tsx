@@ -62,7 +62,7 @@ const navItems = [
             ))}
 
             {/* ✨ Animated "Order eMitra" Button */}
-            <li className="mt-2 md:mt-0">
+            <li className="mt-2 md:mt-0 mb-7 ms-5 md:ms-0 md:mb-0">
               <Link target="blank"
                 href="https://achariyagroup.in/stationeryOrder.aspx"
                 className="relative inline-flex items-center justify-center px-5 py-2.5 overflow-hidden font-semibold text-white bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 rounded-full shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg animate-pulse"

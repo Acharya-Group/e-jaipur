@@ -6,7 +6,7 @@ import { Banknote, Users, Handshake } from "lucide-react";
 
 const BankBc = () => {
   return (
-    <section id="bankbc" className="relative py-20 bg-linear-to-b from-white via-[#f5f8ff] to-[#eaf1ff] text-gray-800 overflow-hidden">
+    <section id="bankbc" className="relative py-12 lg:py-14 bg-linear-to-b from-white via-[#f5f8ff] to-[#eaf1ff] text-gray-800 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-60 h-60 bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-10 right-10 w-72 h-72 bg-yellow-200/40 rounded-full blur-3xl -z-10"></div>
@@ -26,14 +26,14 @@ const BankBc = () => {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="max-w-2xl mx-auto text-gray-600 mb-16"
+          className="max-w-2xl mx-auto text-gray-600 mb-6"
         >
           Join our mission to empower financial inclusion across India. As a certified Bank BC partner, 
           you’ll earn commissions, serve your community, and grow your business with RajPay.
         </motion.p>
 
         {/* Highlight Panels (not cards — subtle glassmorphism style) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-6">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-8 bg-white/60 backdrop-blur-md rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-blue-100"

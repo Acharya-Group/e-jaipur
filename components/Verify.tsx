@@ -31,7 +31,7 @@ const VerifyApply = () => {
   ];
 
   return (
-    <section className="relative py-20 bg-transition-to-b from-white via-[#f7faff] to-[#eaf3ff] text-gray-800 overflow-hidden">
+    <section className="relative py-12 lg:py-14 bg-transition-to-b from-white via-[#f7faff] to-[#eaf3ff] text-gray-800 overflow-hidden">
       {/* Decorative Background Glow */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-pink-200/40 rounded-full blur-3xl -z-10"></div>
@@ -62,7 +62,7 @@ const VerifyApply = () => {
         </div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-8">
           {cardsData.map((card) => (
             <motion.a
               key={card.id}

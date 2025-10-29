@@ -17,7 +17,7 @@ const navItems = [
 ];
 
   return (
-    <header className="w-full bg-white/80 backdrop-blur-md shadow-md fixed top-0 z-50 transition-all duration-300">
+    <header className="w-full bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="relative w-36 h-10 flex items-center">

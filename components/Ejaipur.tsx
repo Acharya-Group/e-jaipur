@@ -5,7 +5,7 @@ import { Building2, Globe2, Award, Lightbulb } from "lucide-react";
 
 const Ejaipur = () => {
   return (
-    <section id="about" className="relative py-20 bg-linear-to-b from-white to-gray-50 text-gray-800 overflow-hidden">
+    <section id="about" className="relative py-12 lg:py-14 bg-linear-to-b from-white to-gray-50 text-gray-800 overflow-hidden">
       {/* Decorative gradient blobs */}
       <div className="absolute top-10 left-10 w-40 h-40 bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-10 right-10 w-56 h-56 bg-pink-200/40 rounded-full blur-3xl -z-10"></div>
@@ -25,7 +25,7 @@ const Ejaipur = () => {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="max-w-3xl mx-auto text-gray-600 mb-12 leading-relaxed"
+          className="max-w-3xl mx-auto text-gray-600 mb-6 leading-relaxed"
         >
           Achariya Technologies Private Limited commenced its operations in 2008. 
           Since then, the company has evolved with an innovative and integrated communication 
@@ -35,7 +35,7 @@ const Ejaipur = () => {
         </motion.p>
 
         {/* Highlights / Values Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 mb-6">
           {[
             {
               icon: <Building2 className="h-10 w-10 text-blue-500" />,

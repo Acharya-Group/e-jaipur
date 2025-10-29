@@ -6,7 +6,7 @@ import { Laptop, BookOpenCheck, GraduationCap } from "lucide-react";
 
 const Rkcl = () => {
   return (
-    <section id="rkcl" className="relative py-20 bg-linear-to-b from-white via-[#f7faff] to-[#e7f0ff] text-gray-800 overflow-hidden">
+    <section id="rkcl" className="relative py-12 lg:py-14 bg-linear-to-b from-white via-[#f7faff] to-[#e7f0ff] text-gray-800 overflow-hidden">
       {/* Background glow effects */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-indigo-200/40 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-pink-200/40 rounded-full blur-3xl -z-10"></div>
@@ -27,7 +27,7 @@ const Rkcl = () => {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="max-w-2xl mx-auto text-gray-600 mb-16"
+          className="max-w-2xl mx-auto text-gray-600 mb-6"
         >
           Join Rajasthan Knowledge Corporation Limited (RKCL) and offer globally
           recognized digital education programs. Help empower learners with
@@ -35,7 +35,7 @@ const Rkcl = () => {
         </motion.p>
 
         {/* Highlights Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-6">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-8 bg-white/60 backdrop-blur-md rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-indigo-100"

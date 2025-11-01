@@ -29,7 +29,7 @@ const Rkcl = () => {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="max-w-2xl mx-auto text-gray-600 mb-6"
         >
-          Join Rajasthan Knowledge Corporation Limited (RKCL) and offer globally
+          Join Rajasthan Knowledge Corporation Limited (RKCL/RSCIT) and offer globally
           recognized digital education programs. Help empower learners with
           essential IT and digital skills under the RajPay initiative.
         </motion.p>
@@ -95,7 +95,7 @@ const Rkcl = () => {
             href="https://achariyagroup.in/RKCL.aspx"
             className="bg-linear-to-r from-indigo-500 to-pink-500 text-white px-10 py-3 rounded-full font-semibold text-lg shadow-md hover:shadow-lg transition-all"
           >
-            Apply for RKCL Center
+           Apply for RKCL ITGK Centre
           </Link>
         </motion.div>
       </div>

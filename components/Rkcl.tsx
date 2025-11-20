@@ -92,7 +92,7 @@ const Rkcl = () => {
           className="inline-block"
         >
           <Link
-            href="https://achariyagroup.in/RKCL.aspx"
+            href="https://achariyagroup.in/rkcl"
             className="bg-linear-to-r from-indigo-500 to-pink-500 text-white px-10 py-3 rounded-full font-semibold text-lg shadow-md hover:shadow-lg transition-all"
           >
             Apply for RKCL Center

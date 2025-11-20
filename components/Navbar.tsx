@@ -68,7 +68,7 @@ const navItems = [
                 className="relative inline-flex items-center justify-center px-5 py-2.5 overflow-hidden font-semibold text-white bg-linear-to-r from-blue-600 via-pink-500 to-yellow-500 rounded-full shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg animate-pulse"
               >
                 <span className="absolute inset-0 bg-linear-to-r from-blue-500 via-pink-400 to-yellow-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full"></span>
-                <span className="relative z-10">⚡ Order eMitra</span>
+                <span className="relative z-10">⚡ Order Stationery</span>
               </Link>
             </li>
           </ul>

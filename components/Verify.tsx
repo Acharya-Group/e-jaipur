@@ -6,13 +6,13 @@ const VerifyApply = () => {
     {
       id: 1,
       title: "Verify e-Mitra",
-      link: "https://achariyagroup.in/emitra.aspx",
+      link: "https://achariyagroup.in/verify-emitra",
       icon: "✅",
     },
     {
       id: 2,
       title: "Apply For New e-Mitra",
-      link: "https://achariyagroup.in/contactus.aspx",
+      link: "https://achariyagroup.in/contact",
       icon: "📝",
     },
     {
@@ -25,7 +25,7 @@ const VerifyApply = () => {
     {
       id: 4,
       title: "SSO Sign In",
-      link: "/sso-signin",
+      link: "https://sso.rajasthan.gov.in/signin",
       icon: "🔐",
     },
   ];

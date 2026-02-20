@@ -10,7 +10,6 @@ const BankBc = () => {
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-60 h-60 bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-10 right-10 w-72 h-72 bg-yellow-200/40 rounded-full blur-3xl -z-10"></div>
-
       <div className="relative container mx-auto px-6 text-center">
         {/* Section Heading */}
            <motion.h2

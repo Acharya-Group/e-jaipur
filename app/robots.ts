@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://ejaipur.in/sitemap.xml",
+    sitemap: "https://www.ejaipur.in/sitemap.xml",
   };
 }

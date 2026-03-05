@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ejaipur.insitemap.xml
+
+Sitemap: https://www.ejaipur.sitemap.xml
